@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "766497d0-df27-4edf-922b-b41a96e1c28e",
+		"name": "redisstream-demo-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "admin消息队列生产端",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/redis/admin/Jeeno",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"redis",
+						"admin",
+						"Jeeno"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user消息队列生产端",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/redis/user/name1111",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"redis",
+						"user",
+						"name1111"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
